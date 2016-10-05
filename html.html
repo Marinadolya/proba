@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/js" href="java.js">
+  </head>
+
+  <body> 
+  		<script LANGUAGE="JavaScript">
+  			document.write("<font color='red'> красный текст </font><br>")
+  			document.write("<font color='blue'> синий текст </font><br>")
+  			Now = new Date(); 
+			var mpo = Now.getMonth();
+  			var mpo1 = mpo + 1
+  			document.write("<font color='red'> Привет! Сегодня у нас " + Now.getDate() + "/" + mpo1 + "/" + Now.getFullYear() + ". А времечка на тот моменты было " + Now.getHours() + " часов " + Now.getMinutes() + " минут и " + Now.getSeconds() + " секунд.</font>");
+  		</script>
+                <br>
+                <a href="#" onMouseOver="document.bgColor='648623'; return true">Ссылка</A> 
+                <a href="#" onMouseOver="document.bgColor='154865'/*onMouseOver=window.status='Бесплатный хостинг' не работает*/; return true">Ссылка</a> 
+                <a href="#" onMouseOver="alert('Я выполнила задание?'); return true">Ссылка</a>
+   </body>
+</html>
